@@ -1,10 +1,7 @@
-==================================================
 PENJELASAN & PANDUAN MINI PROJECT PHP
 Mata Kuliah: Pemrograman Web (Pertemuan 2)
-==================================================
 
 1. STRUKTUR FILE PROYEK
---------------------------------------------------
 Aplikasi ini dibuat secara ringkas dan sederhana terdiri dari 4 file utama:
 
 - config.php
@@ -21,7 +18,6 @@ Aplikasi ini dibuat secara ringkas dan sederhana terdiri dari 4 file utama:
 
 
 2. PENJELASAN FUNGSI & LOGIKA KODE
---------------------------------------------------
 A. Fungsi hitungTotalNilaiStok($daftarProduk)
    - Kegunaan: Menhitung total nilai aset gudang.
    - Cara Kerja: Melakukan perulangan (foreach) pada array produk, mengalikan harga dengan jumlah stok, lalu menjumlahkan seluruh totalnya.
@@ -41,7 +37,6 @@ D. Pemisahan Modular (require_once)
 
 
 3. CARA MENJALANKAN APLIKASI
---------------------------------------------------
 Langkah 1:
 Salin folder "mini_project_php" ke dalam folder web server XAMPP Anda:
 C:\xampp\htdocs\mini_project_php
